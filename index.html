@@ -1,27 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Automation,Landing Pages and Email Marketing Platform</title>
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body class="bg-gray-100 gap-y-4 flex flex-col min-h-screen">
- <header id="mainHeader" class="mb-2 text-sm sticky top-0 z-50 bg-gray-100 transition-shadow duration-300">
-    <nav class="flex items-center justify-between px-6 py-4 text-sm">
-      <div id="leftNav" class="justify-stretch ml-14">
-        <ul id="leftNavUl" class="flex items-center justify-between gap-8 ml-2">
+  <header id="mainHeader" class="mb-2 text-sm sticky top-0 z-50 bg-gray-100 transition-shadow duration-300">
+    <nav class="flex flex-wrap items-center justify-between px-4 sm:px-6 py-4 text-sm">
+      <div id="leftNav" class="ml-4 sm:ml-14 w-full md:w-auto">
+        <ul id="leftNavUl" class="flex flex-col md:flex-row items-start md:items-center gap-4 md:gap-8 ml-2">
           <li class="lNlistItems">
-            <a href="/index.html"><img class="w-36" src="/assets/gr-rgb-fullcolor-for_light_bg.svg" alt="Logo Image"></a>
+            <a href="/index.html"><img class="w-32 sm:w-36" src="/assets/gr-rgb-fullcolor-for_light_bg.svg" alt="Logo Image"></a>
           </li>
           <li class="lNlistItems font-semibold hover:text-[#00baff]">
             <div class="dropdown1">
-              <a href="#" class="flex items-center">Product<span><img class="w-4" src="/assets/arrow-right-svgrepo-com.svg" alt="arrow right"></span> <span class="hidden hover:inline"><img class="w-4" src="/assets/arrow-down-svgrepo-com.svg" alt="arrow down"></span></a>
+              <a href="#" class="flex items-center">Product<span><img class="w-4 ml-1" src="/assets/arrow-right-svgrepo-com.svg" alt="arrow right"></span> <span class="hidden hover:inline"><img class="w-4" src="/assets/arrow-down-svgrepo-com.svg" alt="arrow down"></span></a>
             </div>
           </li>
           <li class="lNlistItems font-semibold hover:text-[#00baff]">
             <div class="dropdown2">
-              <a href="#" class="flex items-center">Resources<span><img class="w-4" src="/assets/arrow-right-svgrepo-com.svg" alt="arrow right"></span> <span class="hidden hover:inline"><img class="w-4" src="/assets/arrow-down-svgrepo-com.svg" alt="arrow down"></span></a>
+              <a href="#" class="flex items-center">Resources<span><img class="w-4 ml-1" src="/assets/arrow-right-svgrepo-com.svg" alt="arrow right"></span> <span class="hidden hover:inline"><img class="w-4" src="/assets/arrow-down-svgrepo-com.svg" alt="arrow down"></span></a>
             </div>
           </li>
           <li class="lNlistItems font-semibold hover:text-[#00baff]">
@@ -32,8 +32,8 @@
           </li>
         </ul>
       </div>
-      <div id="rightNav" class="justify-stretch mr-14">
-        <ul id="rightNavUl" class="flex items-center justify-between gap-6 mr-2">
+      <div id="rightNav" class="mt-4 md:mt-0 mr-4 sm:mr-14 w-full md:w-auto">
+        <ul id="rightNavUl" class="flex flex-col md:flex-row items-start md:items-center gap-4 md:gap-6 mr-2">
           <li class="rNlistItems font-semibold hover:text-[#00baff]">
             <a href="#">Log in</a>
           </li>
@@ -49,36 +49,33 @@
   </header>
 
   <main>
-    <section id="hero" class="flex flex-col items-center justify-center min-h-[90vh]">
-      <h1 class="text-[#7990a1] font-bold mb-4">EMAIL MARKETING & AUTOMATION PLATFORM</h1>
-      <p class="text-7xl font-bold mb-6">Email marketing that grows with you</p>
-      <p class="font-semibold text-lg flex flex-col mb-14">Get the email tools you need today, with automation and <span>AI that scale with you — all in one affordable subscription</span></p>
+    <section id="hero" class="flex flex-col items-center justify-center min-h-[90vh] px-4 text-center">
+      <h1 class="text-[#7990a1] font-bold mb-4 text-lg sm:text-xl md:text-2xl">EMAIL MARKETING & AUTOMATION PLATFORM</h1>
+      <p class="text-4xl sm:text-5xl md:text-7xl font-bold mb-6">Email marketing that grows with you</p>
+      <p class="font-semibold text-base sm:text-lg flex flex-col mb-14">Get the email tools you need today, with automation and <span>AI that scale with you — all in one affordable subscription</span></p>
       <div>
-        <button class="border-3 border-[#ffd100] rounded-3xl px-8 py-3 bg-[#ffeb00] hover:bg-[#00baff] hover:border-[#00a2ff] hover:text-white ">
-          <a href="#" class="flex items-center justify-between gap-2 font-bold text-lg">Start 30-day FREE trial <span class="text-white">
-            <img class="w-8 fill-current text-white" src="/assets/arrow-sm-right2-svgrepo-com.svg" alt="arrow right">
-          </span></a>
+        <button class="border-3 border-[#ffd100] rounded-3xl px-6 sm:px-8 py-3 bg-[#ffeb00] hover:bg-[#00baff] hover:border-[#00a2ff] hover:text-white">
+          <a href="#" class="flex items-center justify-between gap-2 font-bold text-base sm:text-lg">Start 30-day FREE trial 
+            <span class="text-white"><img class="w-6 sm:w-8 fill-current text-white" src="/assets/arrow-sm-right2-svgrepo-com.svg" alt="arrow right"></span>
+          </a>
         </button>
         <p class="text-xs mt-2">Try us free <span class="text-[#7990a1]">|</span> No credit card required <span class="text-[#7990a1]">|</span> Cancel anytime</p>
       </div>
       <div class="mt-8 w-full flex justify-center">
-        <img class="w-[70vw]" src="/assets/folder.png" alt="Hero Image">
+        <img class="w-[90vw] sm:w-[70vw] max-w-xl" src="/assets/folder.png" alt="Hero Image">
       </div>
     </section>
   </main>
 
-
   <script>
-  const header = document.getElementById('mainHeader');
-
-  window.addEventListener('scroll', () => {
-    if (window.scrollY > 0) {
-      header.classList.add('shadow');
-    } else {
-      header.classList.remove('shadow');
-    }
-  });
-</script>
-
+    const header = document.getElementById('mainHeader');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 0) {
+        header.classList.add('shadow');
+      } else {
+        header.classList.remove('shadow');
+      }
+    });
+  </script>
 </body>
 </html>
