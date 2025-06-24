@@ -6,41 +6,41 @@
   <title>Automation,Landing Pages and Email Marketing Platform</title>
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body class="">
-  <header>
-    <nav class="flex items-center justify-between bg-white px-8 py-4 ">
-      <div id="leftNav" class="ml-14">
-        <ul id="leftNavUl" class="flex items-center justify-between gap-6">
+<body class="bg-gray-100 gap-y-4 flex flex-col min-h-screen">
+  <header class="mb-2">
+    <nav class="flex items-center justify-between bg-white px-6 py-4 text-sm sticky top-0 z-50">
+      <div id="leftNav" class="justify-stretch ml-14">
+        <ul id="leftNavUl" class="flex items-center justify-between gap-8 ml-2">
           <li class="lNlistItems">
             <a href="/index.html"><img class="w-36" src="/assets/gr-rgb-fullcolor-for_light_bg.svg" alt="Logo Image"></a>
           </li>
-          <li class="lNlistItems font-semibold hover:text-blue-700">
+          <li class="lNlistItems font-semibold hover:text-[#00baff]">
             <div class="dropdown1">
-              <a href="#" class="flex items-center">Product<span><img class="w-4" src="/assets/arrow-right-svgrepo-com.svg" alt="arrow right"></span> <span class="hidden hover:inline"><img src="/assets/arrow-down-svgrepo-com.svg" alt=""></span></a>
+              <a href="#" class="flex items-center">Product<span><img class="w-4" src="/assets/arrow-right-svgrepo-com.svg" alt="arrow right"></span> <span class="hidden hover:inline"><img class="w-4" src="/assets/arrow-down-svgrepo-com.svg" alt="arrow down"></span></a>
             </div>
           </li>
-          <li class="lNlistItems font-semibold hover:text-blue-700">
+          <li class="lNlistItems font-semibold hover:text-[#00baff]">
             <div class="dropdown2">
-              <a href="#" class="flex items-center">Resources<span><img class="w-4" src="/assets/arrow-right-svgrepo-com.svg" alt="arrow right"></span> <span class="hidden hover:inline"><img src="/assets/arrow-down-svgrepo-com.svg" alt=""></span></a>
+              <a href="#" class="flex items-center">Resources<span><img class="w-4" src="/assets/arrow-right-svgrepo-com.svg" alt="arrow right"></span> <span class="hidden hover:inline"><img class="w-4" src="/assets/arrow-down-svgrepo-com.svg" alt="arrow down"></span></a>
             </div>
           </li>
-          <li class="lNlistItems font-semibold hover:text-blue-700">
+          <li class="lNlistItems font-semibold hover:text-[#00baff]">
             <a href="#">Enterprise</a>
           </li>
-          <li class="lNlistItems font-semibold hover:text-blue-700">
+          <li class="lNlistItems font-semibold hover:text-[#00baff]">
             <a href="#">Pricing</a>
           </li>
         </ul>
       </div>
-      <div id="rightNav" class="mr-14">
-        <ul id="rightNavUl" class="flex items-center justify-between gap-6">
-          <li class="rNlistItems font-semibold hover:text-blue-700">
+      <div id="rightNav" class="justify-stretch mr-14">
+        <ul id="rightNavUl" class="flex items-center justify-between gap-6 mr-2">
+          <li class="rNlistItems font-semibold hover:text-[#00baff]">
             <a href="#">Log in</a>
           </li>
-          <li class="rNlistItems font-semibold bg-white border-2 border-red-600 rounded-lg px-2 py-1 text-red-600 hover:bg-red-600 hover:text-white">
+          <li class="rNlistItems font-semibold bg-white border-2 border-red-600 rounded-lg px-3 py-2 text-red-600 hover:bg-red-600 hover:text-white">
             <a href="#"><button>Book a demo</button></a>
           </li>
-          <li class="rNlistItems font-semibold bg-blue-700 text-white border-2 border-blue-700 rounded-lg px-2 py-1 hover:bg-white hover:text-blue-700">
+          <li class="rNlistItems font-semibold bg-[#00baff] text-white border-2 border-[#00baff] rounded-lg px-3 py-2 hover:bg-white hover:text-[#00baff]">
             <a href="#"><button>Sign up free</button></a>
           </li>
         </ul>
@@ -48,8 +48,20 @@
     </nav>
   </header>
 
-  <main>
-
+  <main class="mt-[-7rem]">
+    <section id="hero" class="flex flex-col items-center justify-center min-h-[90vh]">
+      <h1 class="text-[#7990a1] font-bold mb-4">EMAIL MARKETING & AUTOMATION PLATFORM</h1>
+      <p class="text-7xl font-bold mb-6">Email marketing that grows with you</p>
+      <p class="font-semibold text-lg flex flex-col mb-14">Get the email tools you need today, with automation and <span>AI that scale with you — all in one affordable subscription</span></p>
+      <div>
+        <button class="border-3 border-[#ffd100] rounded-3xl px-8 py-3 bg-[#ffeb00] hover:bg-[#00baff] hover:border-[#00a2ff] hover:text-white ">
+          <a href="#" class="flex items-center justify-between gap-2 font-bold text-lg">Start 30-day FREE trial <span class="text-white">
+            <img class="w-8 fill-current text-white" src="/assets/arrow-sm-right2-svgrepo-com.svg" alt="arrow right">
+          </span></a>
+        </button>
+        <p class="text-xs mt-2">Try us free <span class="text-[#7990a1]">|</span> No credit card required <span class="text-[#7990a1]">|</span> Cancel anytime</p>
+      </div>
+    </section>
   </main>
 </body>
 </html>
