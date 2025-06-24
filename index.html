@@ -7,8 +7,8 @@
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body class="bg-gray-100 gap-y-4 flex flex-col min-h-screen">
-  <header class="mb-2">
-    <nav class="flex items-center justify-between bg-white px-6 py-4 text-sm sticky top-0 z-50">
+ <header id="mainHeader" class="mb-2 text-sm sticky top-0 z-50 bg-gray-100 transition-shadow duration-300">
+    <nav class="flex items-center justify-between px-6 py-4 text-sm">
       <div id="leftNav" class="justify-stretch ml-14">
         <ul id="leftNavUl" class="flex items-center justify-between gap-8 ml-2">
           <li class="lNlistItems">
@@ -48,7 +48,7 @@
     </nav>
   </header>
 
-  <main class="mt-[-7rem]">
+  <main>
     <section id="hero" class="flex flex-col items-center justify-center min-h-[90vh]">
       <h1 class="text-[#7990a1] font-bold mb-4">EMAIL MARKETING & AUTOMATION PLATFORM</h1>
       <p class="text-7xl font-bold mb-6">Email marketing that grows with you</p>
@@ -61,7 +61,24 @@
         </button>
         <p class="text-xs mt-2">Try us free <span class="text-[#7990a1]">|</span> No credit card required <span class="text-[#7990a1]">|</span> Cancel anytime</p>
       </div>
+      <div class="mt-8 w-full flex justify-center">
+        <img class="w-[70vw]" src="/assets/folder.png" alt="Hero Image">
+      </div>
     </section>
   </main>
+
+
+  <script>
+  const header = document.getElementById('mainHeader');
+
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 0) {
+      header.classList.add('shadow');
+    } else {
+      header.classList.remove('shadow');
+    }
+  });
+</script>
+
 </body>
 </html>
